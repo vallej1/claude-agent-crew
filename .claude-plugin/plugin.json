@@ -1,0 +1,43 @@
+{
+  "name": "claude-agent-crew",
+  "version": "1.0.0",
+  "description": "A portable agent crew system with 7 specialized agents for product development workflows",
+  "main": "skills/orchestrate.md",
+  "skills": {
+    "orchestrate": {
+      "path": "skills/orchestrate.md",
+      "description": "Orchestrate agents through product development lifecycle"
+    },
+    "crew/market-researcher": {
+      "path": "skills/crew/market-researcher.md",
+      "description": "Market and competitor analysis"
+    },
+    "crew/product-manager": {
+      "path": "skills/crew/product-manager.md",
+      "description": "Requirements and user stories"
+    },
+    "crew/architect": {
+      "path": "skills/crew/architect.md",
+      "description": "System architecture design"
+    },
+    "crew/developer": {
+      "path": "skills/crew/developer.md",
+      "description": "Code implementation"
+    },
+    "crew/qa-tester": {
+      "path": "skills/crew/qa-tester.md",
+      "description": "Testing and quality assurance"
+    },
+    "crew/devops": {
+      "path": "skills/crew/devops.md",
+      "description": "CI/CD and deployment"
+    },
+    "crew/customer-support": {
+      "path": "skills/crew/customer-support.md",
+      "description": "User documentation"
+    }
+  },
+  "install": {
+    "skillsDir": "skills"
+  }
+}

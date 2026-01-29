@@ -1,0 +1,58 @@
+{
+  "name": "claude-agent-crew",
+  "displayName": "Claude Agent Crew",
+  "description": "A portable agent crew system with 7 specialized agents for product development workflows",
+  "version": "1.0.0",
+  "author": "vallej1",
+  "repository": "https://github.com/vallej1/claude-agent-crew",
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "crew",
+    "orchestration",
+    "product-development",
+    "ai-agents"
+  ],
+  "skills": [
+    {
+      "name": "orchestrate",
+      "description": "Orchestrate 7 specialized agents through a product development lifecycle",
+      "path": "skills/orchestrate.md"
+    },
+    {
+      "name": "crew/market-researcher",
+      "description": "Analyzes markets, competitors, and users",
+      "path": "skills/crew/market-researcher.md"
+    },
+    {
+      "name": "crew/product-manager",
+      "description": "Creates requirements and user stories",
+      "path": "skills/crew/product-manager.md"
+    },
+    {
+      "name": "crew/architect",
+      "description": "Designs system architecture",
+      "path": "skills/crew/architect.md"
+    },
+    {
+      "name": "crew/developer",
+      "description": "Implements code",
+      "path": "skills/crew/developer.md"
+    },
+    {
+      "name": "crew/qa-tester",
+      "description": "Tests and identifies issues",
+      "path": "skills/crew/qa-tester.md"
+    },
+    {
+      "name": "crew/devops",
+      "description": "Sets up CI/CD and deployment",
+      "path": "skills/crew/devops.md"
+    },
+    {
+      "name": "crew/customer-support",
+      "description": "Creates user documentation",
+      "path": "skills/crew/customer-support.md"
+    }
+  ]
+}
