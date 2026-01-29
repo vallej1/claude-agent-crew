@@ -14,7 +14,10 @@
         "name": "vallej1",
         "email": "vallej1@users.noreply.github.com"
       },
-      "source": ".",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vallej1/claude-agent-crew.git"
+      },
       "category": "development",
       "homepage": "https://github.com/vallej1/claude-agent-crew"
     }
