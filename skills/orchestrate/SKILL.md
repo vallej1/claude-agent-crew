@@ -1,3 +1,8 @@
+---
+name: orchestrate
+description: "Orchestrate 7 specialized agents through a complete product development lifecycle - from research to deployment."
+---
+
 # Orchestrate
 
 > Agent crew orchestrator for product development workflows

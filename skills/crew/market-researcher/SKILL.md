@@ -1,3 +1,8 @@
+---
+name: crew/market-researcher
+description: "Analyzes markets, competitors, and users to inform product decisions"
+---
+
 # Market Researcher Agent
 
 ## Role

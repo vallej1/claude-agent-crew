@@ -1,3 +1,8 @@
+---
+name: crew/architect
+description: "Designs system architecture, data models, and API contracts"
+---
+
 # Architect Agent
 
 ## Role

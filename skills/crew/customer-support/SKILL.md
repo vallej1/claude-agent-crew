@@ -1,3 +1,8 @@
+---
+name: crew/customer-support
+description: "Creates user-facing documentation, FAQs, and troubleshooting guides"
+---
+
 # Customer Support Agent
 
 ## Role

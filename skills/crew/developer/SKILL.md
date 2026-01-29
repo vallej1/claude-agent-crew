@@ -1,3 +1,8 @@
+---
+name: crew/developer
+description: "Implements features according to architectural designs and requirements"
+---
+
 # Developer Agent
 
 ## Role

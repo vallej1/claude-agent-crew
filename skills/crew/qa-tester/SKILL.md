@@ -1,3 +1,8 @@
+---
+name: crew/qa-tester
+description: "Ensures quality through test planning, test cases, and defect identification"
+---
+
 # QA Tester Agent
 
 ## Role

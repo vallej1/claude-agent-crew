@@ -1,3 +1,8 @@
+---
+name: crew/product-manager
+description: "Translates market insights and user needs into clear product requirements"
+---
+
 # Product Manager Agent
 
 ## Role

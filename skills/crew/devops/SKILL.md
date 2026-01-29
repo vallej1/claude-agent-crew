@@ -1,3 +1,8 @@
+---
+name: crew/devops
+description: "Designs and implements CI/CD pipelines, deployment, and infrastructure"
+---
+
 # DevOps Agent
 
 ## Role
