@@ -9,9 +9,9 @@ SKILLS_DIR="$HOME/.claude/skills"
 echo "Uninstalling Agent Crew skills..."
 
 # Remove orchestrator skill
-if [ -f "$SKILLS_DIR/orchestrate.md" ]; then
-  rm "$SKILLS_DIR/orchestrate.md"
-  echo "  ✓ Removed orchestrate.md"
+if [ -d "$SKILLS_DIR/orchestrate" ]; then
+  rm -rf "$SKILLS_DIR/orchestrate"
+  echo "  ✓ Removed orchestrate"
 fi
 
 # Remove agent personas

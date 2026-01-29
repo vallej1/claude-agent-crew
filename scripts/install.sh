@@ -13,14 +13,14 @@ echo "Installing Agent Crew skills..."
 # Create skills directory if it doesn't exist
 mkdir -p "$SKILLS_DIR/crew"
 
-# Copy orchestrator skill
-cp "$PROJECT_DIR/skills/orchestrate.md" "$SKILLS_DIR/orchestrate.md"
-echo "  ✓ Installed orchestrate.md"
+# Copy orchestrator skill (directory with SKILL.md)
+cp -r "$PROJECT_DIR/skills/orchestrate" "$SKILLS_DIR/"
+echo "  ✓ Installed orchestrate"
 
-# Copy agent personas
+# Copy agent personas (directories with SKILL.md)
 for persona in market-researcher product-manager architect developer qa-tester devops customer-support; do
-  cp "$PROJECT_DIR/skills/crew/$persona.md" "$SKILLS_DIR/crew/$persona.md"
-  echo "  ✓ Installed crew/$persona.md"
+  cp -r "$PROJECT_DIR/skills/crew/$persona" "$SKILLS_DIR/crew/"
+  echo "  ✓ Installed crew/$persona"
 done
 
 echo ""
